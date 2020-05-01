@@ -1,0 +1,14 @@
+module.exports = {
+  presets: [
+    'next/babel',
+    [
+      '@emotion/babel-preset-css-prop',
+      {
+        sourceMap: true,
+        // "autoLabel": true,
+        labelFormat: '[dirname]--[filename]--[local]',
+      },
+    ],
+  ],
+  plugins: [],
+}
